@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px)
+{
+   
+    .destination, .filtres {
+        padding: 0 20px;
+    }
+
+    .info
+    {
+        padding: 0 20px 40px 20px;
+    }
+
+    .bouton{
+        display:none;
+    }
+
+    .search{
+        display: block;
+        margin-left: -25px;
+        border-radius: 12px;
+        width: 40px;
+    }
+
+    .recherche{
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-map-marker-alt{
+        padding: 4px 4px 4px 4px;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    
+
+    form input{
+        border: 2px solid #F2F2F2;
+        padding: 10px 70px 10px 0;
+        font-size: 16px;
+    }
+
+
+    .filtres h2{
+        margin: 15px 0 15px 0;
+    }
+
+    .categorie_globale{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .categorie{
+        margin-bottom: 14px;
+    }
+
+    header img{
+        margin: 15px 0 0 20px;
+    }
+
+    .flex li{
+        width: 50%;
+        text-align: center;
+        border-bottom: 2px #F2F2F2 solid;
+        padding-bottom: 10px;
+    }
+
+    .flex li:first-child{
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 10px;
+    }
+
+    .flex li:first-child a{
+        border-top: none;
+    }
+
+    .flex li:nth-child(2) a:hover{
+        border-top: none;
+    }
+
+    .flex li:nth-child(2):hover{
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 10px;
+    }
+
+    .flex li:nth-child(3){
+        border-bottom: none;
+    }
+
+    .flex li:nth-child(3) a:hover{
+        border-top: none;
+    }
+
+      .blanc{
+          margin: 13px 0 13px 0px;
+      }
+
+   .global{
+       flex-direction: column;
+       padding: 0;
+   }
+
+   .hebergement{
+       order: 2;
+       width: 100%;
+       background-color: white;
+   }
+
+   .color{
+       width: 100%;
+       margin: 0 0 20px 0;
+   }
+
+   .cote{
+       width: 100%;
+       order: 1;
+   }
+
+   .bloc:first-child{
+    padding: 0 20px 0 20px;
+    }
+    
+   .activite{
+       flex-direction: column;
+       justify-content: space-around;
+   }
+   
+   .photo_activite{
+       width: 100%;
+       margin: 0 0 20px 0;
+   }
+
+   .pic1,.pic2,.pic3,.pic4,.pic5{
+       height: 120px;
+   } 
+
+   header{
+       flex-direction: column;
+   }
+
+   .flex li:nth-child(3){
+    position: absolute;
+    text-align: end;
+    top: 30px;
+    right: 0;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+
+    .hebergement{
+        margin: 0;
+    }
+
+    #lien2{
+        padding: 50px 0 20px 22px;
+    }
+}
