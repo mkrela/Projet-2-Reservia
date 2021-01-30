@@ -1,6 +1,61 @@
 @media screen and (max-width: 768px)
 {
-   
+    body{
+        margin: 0;
+    }
+    
+    header{
+        flex-direction: column;
+    }
+
+    header a{
+        border-bottom: 3px #F2F2F2 solid;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .header1{
+        border-top: none;
+        width: 100%;
+        border-bottom: 3px #0065FC solid;
+    }
+    
+    .header1:hover{
+        border-top: none;
+    }
+
+    .header2{
+        border-top: none;
+        width: 100%;
+    }
+
+    .header2:hover{
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        transition: .1s;
+    }
+
+    .header3{
+        position: absolute;
+        text-align: end;
+        top: 5px;
+        right: 0px;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .header3:hover{
+        border-top: none;
+    }
+
     .destination, .filtres {
         padding: 0 20px;
     }
@@ -10,36 +65,32 @@
         padding: 0 20px 40px 20px;
     }
 
-    .bouton{
+    .rechercher{
         display:none;
     }
 
-    .search{
-        display: block;
-        margin-left: -25px;
-        border-radius: 12px;
-        width: 40px;
+    .bouton{
+        padding: 14px;
+        border-radius: 10px;
     }
 
     .recherche{
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
     .fa-map-marker-alt{
-        padding: 4px 4px 4px 4px;
+        padding: 15px;
         margin: 0;
         font-size: 16px;
     }
-
-    
 
     form input{
         border: 2px solid #F2F2F2;
         padding: 10px 70px 10px 0;
         font-size: 16px;
     }
-
 
     .filtres h2{
         margin: 15px 0 15px 0;
@@ -58,42 +109,9 @@
         margin: 15px 0 0 20px;
     }
 
-    .flex li{
-        width: 50%;
-        text-align: center;
-        border-bottom: 2px #F2F2F2 solid;
-        padding-bottom: 10px;
-    }
-
-    .flex li:first-child{
-        border-bottom: 2px #0065FC solid;
-        padding-bottom: 10px;
-    }
-
-    .flex li:first-child a{
-        border-top: none;
-    }
-
-    .flex li:nth-child(2) a:hover{
-        border-top: none;
-    }
-
-    .flex li:nth-child(2):hover{
-        border-bottom: 2px #0065FC solid;
-        padding-bottom: 10px;
-    }
-
-    .flex li:nth-child(3){
-        border-bottom: none;
-    }
-
-    .flex li:nth-child(3) a:hover{
-        border-top: none;
-    }
-
-      .blanc{
+    .blanc{
           margin: 13px 0 13px 0px;
-      }
+    }
 
    .global{
        flex-direction: column;
@@ -133,19 +151,8 @@
    .pic1,.pic2,.pic3,.pic4,.pic5{
        height: 120px;
    } 
-
-   header{
-       flex-direction: column;
-   }
-
-   .flex li:nth-child(3){
-    position: absolute;
-    text-align: end;
-    top: 30px;
-    right: 0;
-    }
-
-    footer{
+    
+   footer{
         flex-direction: column;
         padding: 30px 30px;
     }

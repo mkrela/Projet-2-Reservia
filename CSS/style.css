@@ -1,16 +1,16 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 0;
+    margin: 0px 20px;
     width: 100%;
     font-family: 'raleway', sans-serif, Verdana;
 }
 
 header{
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -18,48 +18,45 @@ header{
     margin: 0 auto;
 }
 
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
-
 .flex{
-    list-style: none;
     display: flex;
-    margin-top: 25px;
 }
 
 header a:hover{
-    border-top: 2px #0065FC solid;
-    padding-top: 23px;
+    border-top: 3px #0065FC solid;
     cursor: pointer;
+    transition: .3s;
 }
 
-li a{
-    text-decoration: none;
+header a{
+    border-top: 3px #DEEBFF solid;
     padding: 34px;
-    transition: .3s;
 }
 
 header img{
     height: 40px;
     width: 90px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
     object-fit: cover;
 }
 
-.flex li:nth-child(2) a{
+.header1{
+    border-top: 3px #0065FC solid;
+    color: #0065FC;
+}
+
+.header2{
     color: black;
 }
 
-.flex li:first-child a{
-    border-top: 3px #0065FC solid;
-    padding-top: 23px;
+.header3{
     color: #0065FC;
 }
 
-.flex li:nth-child(3) a{
-    color: #0065FC;
+.container{
+    max-width: 1200px;
+    margin: auto;
 }
 
 .destination{
@@ -70,10 +67,12 @@ header img{
 
 .destination p{
     padding: 10px 4px 30px 0px;
+    margin: 0px;
 }
 
 .destination h1{
     font-weight: bold;
+    margin: 0px;
 }
 
 .bouton{
@@ -83,6 +82,11 @@ header img{
     border: none;
     border-radius: 0px 15px 15px 0px;
     padding: 0px 20px;
+}
+
+.bouton:hover{
+    cursor:pointer;
+    font-weight: bold;
 }
 
 .recherche{
@@ -176,6 +180,7 @@ header img{
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .bas{
@@ -351,7 +356,7 @@ a{
 
 .bloc{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
 }

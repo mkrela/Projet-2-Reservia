@@ -2,7 +2,6 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="40">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
         <link rel="stylesheet" href="CSS/style.css">
@@ -15,12 +14,10 @@
     <body>
         <header>
             <img src="images\logo\Reservia@3x.png" alt="Reservia">
-            <nav>
-                <ul class="flex">
-                    <li><a href="#lien1">Hébergements</a></li>
-                    <li><a href="#lien2">Activités</a></li>
-                    <li><a href="#"><strong>S'inscrire</strong></a></li>
-                </ul>
+            <nav class="flex">
+                    <a class="header1" href="#lien1">Hébergements</a>
+                    <a class="header2" href="#lien2">Activités</a>
+                    <a class="header3" href="#"><strong>S'inscrire</strong></a>
             </nav>
         </header>
 
@@ -32,7 +29,10 @@
                 <form class="recherche">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="search" id="marecherche" name="q" placeholder="Marseille, France">
-                    <button class="bouton">Rechercher <i class="fas fa-search"></i> </button>
+                    <button class="bouton">
+                        <span class="rechercher">Rechercher</span> 
+                        <i class="fas fa-search"></i>
+                    </button>
                 </form>
             </section>
 
@@ -175,8 +175,7 @@
                             </a>
                         </div>
                     </figure>
-
-                    <p class="bas">Afficher Plus</p>
+                    <a href="#" class="bas">Afficher Plus</a>
                 </div>
 
                 <aside class="cote">
@@ -259,9 +258,6 @@
                                 <p class="classement">Fort de Pomègues</p>
                             </div>
                         </a>
-                    </div>
-
-                    <div class="bloc">
                         <a href="#">
                             <div class="photo_activite">
                                 <img class="pic3" src="images\activites\3_medium\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo3">
@@ -269,6 +265,7 @@
                             </div>
                         </a>
                     </div>
+
 
                     <div class="bloc">
                         <a href="#">
@@ -286,9 +283,6 @@
                                 <p class="classement">Notre-Dame-de-la-Garde</p>
                             </div>
                         </a>
-                    </div>
-
-                    <div class="bloc">
                         <a href="#">
                             <div class="photo_activite">
                                 <img class="pic5" src="images\activites\3_medium\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo6">
@@ -296,6 +290,7 @@
                             </div>
                         </a>
                     </div>
+
                 </div>
             </section>
         </main>
@@ -309,7 +304,7 @@
             </div>
             <div>
                 <h3>Nos hébergements</h3>
-                <p><a href="#">CHarte qualité</a></p>
+                <p><a href="#">Charte qualité</a></p>
                 <p><a href="#">Soumettre votre hôtel</a></p>
             </div>
             <div>
