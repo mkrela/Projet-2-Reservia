@@ -1,0 +1,66 @@
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+    .global{
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .cote{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+
+    .icone_cote{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    .populaires{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .blanc{
+        margin: 0 10px 0 10px;
+    }
+
+    .hebergement{
+        margin: 0px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chambre123{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .chambre456{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .color{
+        margin: 10px 0;
+    }
+
+    #lien1{
+        padding: 0;
+    }
+
+    .bas{
+        padding: 10px;
+    }
+}
