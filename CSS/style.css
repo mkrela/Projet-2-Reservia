@@ -4,8 +4,8 @@
 }
 
 body{
-    margin: 0px 20px;
     width: 100%;
+    margin: 0;
     font-family: 'raleway', sans-serif, Verdana;
 }
 
@@ -63,6 +63,7 @@ header img{
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-left: 20px;
 }
 
 .destination p{
@@ -76,7 +77,7 @@ header img{
 }
 
 ::placeholder {
-    font-weight: bold;
+    font-weight: normal;
     color: black;
 }
 
@@ -112,6 +113,7 @@ header img{
 
 .filtres {
     margin: 20px 0px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -164,6 +166,7 @@ header img{
     display: flex;
     align-items: center;
     padding-bottom: 30px;
+    margin-left: 10px;
 }
 
 .icone_info{
