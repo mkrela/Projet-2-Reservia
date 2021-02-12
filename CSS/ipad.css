@@ -71,4 +71,31 @@
     .global2{
         padding: 0 15px;
     }
+
+    .categorie:hover{
+        background-color: white;
+        transform: none;
+    }
+
+    header a:hover{
+        border-top: none;
+        cursor:initial;
+        transition: 0;
+    }
+
+    .blanc:hover{
+        transform: none;
+    }
+
+    .color:hover{
+        transform: none;
+    }
+
+    .photo_activite:hover{
+        transform: none;
+    }
+
+    footer a:hover{
+        color: initial;
+    }
 }

@@ -39,7 +39,6 @@
 
     .header2:hover{
         border-top: none;
-        border-bottom: 3px #0065FC solid;
         transition: .1s;
     }
 
@@ -105,13 +104,30 @@
         margin-bottom: 14px;
     }
 
+    .categorie:hover{
+        background-color: white;
+        transform: none;
+    }
+
     header img{
         margin: 15px 0 0 20px;
     }
 
+    header a:hover{
+        border-top: none;
+        cursor:initial;
+        transition: 0;
+    }
+    
+
     .blanc{
           margin: 13px 0 13px 0px;
     }
+
+    .blanc:hover{
+        transform: none;
+    }
+    
 
    .global{
        flex-direction: column;
@@ -128,6 +144,11 @@
        width: 100%;
        margin: 0 0 20px 0;
    }
+
+   .color:hover{
+    transform: none;
+    }
+
 
    .cote{
        width: 100%;
@@ -148,6 +169,11 @@
        margin: 0 0 20px 0;
    }
 
+   .photo_activite:hover{
+    transform: none;
+    }
+
+
    .pic1,.pic2,.pic3,.pic4,.pic5{
        height: 120px;
    } 
@@ -163,5 +189,9 @@
 
     #lien2{
         padding: 50px 0 20px 22px;
+    }
+
+    footer a:hover{
+        color: initial;
     }
 }
