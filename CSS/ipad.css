@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1024px)
+@media screen and (min-width: 768px) and (max-width: 1024px)
 {
     .global{
         flex-direction: column-reverse;
@@ -78,7 +78,7 @@
     }
 
     header a:hover{
-        border-top: none;
+        border-top: 3px #DEEBFF solid;
         cursor:initial;
         transition: 0;
     }
@@ -97,5 +97,30 @@
 
     footer a:hover{
         color: initial;
+    }
+    
+    .activite{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .bloc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;    
+    }
+
+    .photo_activite{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: auto;
+        margin-top: 40px;
+    }
+
+    #lien2 {
+        margin: auto;
+        padding-bottom: 0;
     }
 }

@@ -92,7 +92,6 @@ header img{
 
 .bouton:hover{
     cursor:pointer;
-    font-weight: bold;
 }
 
 .recherche{
@@ -356,6 +355,10 @@ a{
     width: 100%;
     transform: scale(1);
     transition: .3s;
+}
+
+.global2 {
+    margin: auto;
 }
 
 .photo_activite img{
