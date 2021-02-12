@@ -376,6 +376,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
+    width: 25%;
 }
 
 .photo_activite:hover{
@@ -419,19 +420,14 @@ a{
 footer{
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 30px 300px 30px 40px;
+    padding: 30px ;
 }
 
 footer h3{
     padding: 10px 0;
-}
-
-footer p{
-    transform: scale(1.05);
-    transition: .3s;
 }
 
 footer p a{
