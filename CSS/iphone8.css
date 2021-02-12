@@ -126,7 +126,6 @@
     header a:hover{
         border-top: none;
         cursor:initial;
-        transition: 0;
     }
     
 

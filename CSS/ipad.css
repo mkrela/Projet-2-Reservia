@@ -88,7 +88,6 @@
     header a:hover{
         border-top: 3px #DEEBFF solid;
         cursor:initial;
-        transition: 0;
     }
 
     .blanc:hover{
@@ -142,7 +141,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: auto;
         margin: auto;
     }
 
@@ -181,4 +179,3 @@
         display: flex;
         justify-content: center;
     }
-}
