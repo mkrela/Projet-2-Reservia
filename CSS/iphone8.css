@@ -79,6 +79,14 @@
         align-items: center;
     }
 
+    .loupe {
+        display: initial;
+    }
+
+    .bouton {
+        border-radius: 0 15px 15px 0;
+    }
+
     .fa-map-marker-alt{
         padding: 15px;
         margin: 0;

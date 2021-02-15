@@ -105,6 +105,10 @@ header img{
     padding: 13px;
 }
 
+.loupe {
+    display: none;
+}
+
 #marecherche{
     font-size: 20px;
     border: 2px #F2F2F2 solid;
